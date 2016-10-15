@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77B84AA81DB2CCAC0040D345 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B84AA71DB2CCAC0040D345 /* main.m */; };
-		77B84AAB1DB2CCAC0040D345 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B84AAA1DB2CCAC0040D345 /* AppDelegate.m */; };
-		77B84AAE1DB2CCAC0040D345 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B84AAD1DB2CCAC0040D345 /* ViewController.m */; };
-		77B84AB11DB2CCAC0040D345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B84AAF1DB2CCAC0040D345 /* Main.storyboard */; };
-		77B84AB31DB2CCAC0040D345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B84AB21DB2CCAC0040D345 /* Assets.xcassets */; };
-		77B84AB61DB2CCAC0040D345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B84AB41DB2CCAC0040D345 /* LaunchScreen.storyboard */; };
+		42E3E71C9B1AF6F119B3B218 /* libPods-HCPermissionsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A21F484C3F8C6A3B826281 /* libPods-HCPermissionsTests.a */; };
+		713978F0620FDEC5925FAA7E /* libPods-HCPermissions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6FCC9B5474280C108DF569 /* libPods-HCPermissions.a */; };
 		77B84AC11DB2CCAC0040D345 /* HCPermissionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B84AC01DB2CCAC0040D345 /* HCPermissionsTests.m */; };
 		77B84ACC1DB2CCAC0040D345 /* HCPermissionsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B84ACB1DB2CCAC0040D345 /* HCPermissionsUITests.m */; };
+		77B84AE51DB2CD050040D345 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B84ADB1DB2CD050040D345 /* AppDelegate.m */; };
+		77B84AE61DB2CD050040D345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B84ADC1DB2CD050040D345 /* Assets.xcassets */; };
+		77B84AE71DB2CD050040D345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B84ADD1DB2CD050040D345 /* LaunchScreen.storyboard */; };
+		77B84AE81DB2CD050040D345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B84ADF1DB2CD050040D345 /* Main.storyboard */; };
+		77B84AE91DB2CD050040D345 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77B84AE11DB2CD050040D345 /* Info.plist */; };
+		77B84AEA1DB2CD050040D345 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B84AE21DB2CD050040D345 /* main.m */; };
+		77B84AEB1DB2CD050040D345 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B84AE41DB2CD050040D345 /* ViewController.m */; };
+		77B84AEF1DB2CD9E0040D345 /* HCPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B84AEE1DB2CD9E0040D345 /* HCPermissions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +39,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14A21F484C3F8C6A3B826281 /* libPods-HCPermissionsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HCPermissionsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		291D665AB97E5B27B50D6D74 /* Pods-HCPermissionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCPermissionsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HCPermissionsTests/Pods-HCPermissionsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B6FCC9B5474280C108DF569 /* libPods-HCPermissions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HCPermissions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FEC3182E4A6307D7404FF4 /* Pods-HCPermissions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCPermissions.release.xcconfig"; path = "Pods/Target Support Files/Pods-HCPermissions/Pods-HCPermissions.release.xcconfig"; sourceTree = "<group>"; };
+		61084995B1B8F196BE38C6E1 /* Pods-HCPermissions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCPermissions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HCPermissions/Pods-HCPermissions.debug.xcconfig"; sourceTree = "<group>"; };
 		77B84AA31DB2CCAC0040D345 /* HCPermissions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCPermissions.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		77B84AA71DB2CCAC0040D345 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		77B84AA91DB2CCAC0040D345 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		77B84AAA1DB2CCAC0040D345 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		77B84AAC1DB2CCAC0040D345 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		77B84AAD1DB2CCAC0040D345 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		77B84AB01DB2CCAC0040D345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		77B84AB21DB2CCAC0040D345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		77B84AB51DB2CCAC0040D345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		77B84AB71DB2CCAC0040D345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77B84ABC1DB2CCAC0040D345 /* HCPermissionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCPermissionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B84AC01DB2CCAC0040D345 /* HCPermissionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCPermissionsTests.m; sourceTree = "<group>"; };
 		77B84AC21DB2CCAC0040D345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77B84AC71DB2CCAC0040D345 /* HCPermissionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCPermissionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B84ACB1DB2CCAC0040D345 /* HCPermissionsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCPermissionsUITests.m; sourceTree = "<group>"; };
 		77B84ACD1DB2CCAC0040D345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77B84ADA1DB2CD050040D345 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77B84ADB1DB2CD050040D345 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77B84ADC1DB2CD050040D345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77B84ADE1DB2CD050040D345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77B84AE01DB2CD050040D345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77B84AE11DB2CD050040D345 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77B84AE21DB2CD050040D345 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77B84AE31DB2CD050040D345 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		77B84AE41DB2CD050040D345 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		77B84AED1DB2CD9E0040D345 /* HCPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCPermissions.h; sourceTree = "<group>"; };
+		77B84AEE1DB2CD9E0040D345 /* HCPermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCPermissions.m; sourceTree = "<group>"; };
+		BE08D702A7983BCEE3C9C9E0 /* Pods-HCPermissionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCPermissionsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HCPermissionsTests/Pods-HCPermissionsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713978F0620FDEC5925FAA7E /* libPods-HCPermissions.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42E3E71C9B1AF6F119B3B218 /* libPods-HCPermissionsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +92,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22D4F08337BA8AC679D09754 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B6FCC9B5474280C108DF569 /* libPods-HCPermissions.a */,
+				14A21F484C3F8C6A3B826281 /* libPods-HCPermissionsTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		77B84A9A1DB2CCAC0040D345 = {
 			isa = PBXGroup;
 			children = (
 				77B84AA51DB2CCAC0040D345 /* HCPermissions */,
+				77B84AD91DB2CD050040D345 /* HCPermissionsExample */,
 				77B84ABF1DB2CCAC0040D345 /* HCPermissionsTests */,
 				77B84ACA1DB2CCAC0040D345 /* HCPermissionsUITests */,
 				77B84AA41DB2CCAC0040D345 /* Products */,
+				C9AC8CD0C69D093EFA39D928 /* Pods */,
+				22D4F08337BA8AC679D09754 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,25 +127,10 @@
 		77B84AA51DB2CCAC0040D345 /* HCPermissions */ = {
 			isa = PBXGroup;
 			children = (
-				77B84AA91DB2CCAC0040D345 /* AppDelegate.h */,
-				77B84AAA1DB2CCAC0040D345 /* AppDelegate.m */,
-				77B84AAC1DB2CCAC0040D345 /* ViewController.h */,
-				77B84AAD1DB2CCAC0040D345 /* ViewController.m */,
-				77B84AAF1DB2CCAC0040D345 /* Main.storyboard */,
-				77B84AB21DB2CCAC0040D345 /* Assets.xcassets */,
-				77B84AB41DB2CCAC0040D345 /* LaunchScreen.storyboard */,
-				77B84AB71DB2CCAC0040D345 /* Info.plist */,
-				77B84AA61DB2CCAC0040D345 /* Supporting Files */,
+				77B84AED1DB2CD9E0040D345 /* HCPermissions.h */,
+				77B84AEE1DB2CD9E0040D345 /* HCPermissions.m */,
 			);
 			path = HCPermissions;
-			sourceTree = "<group>";
-		};
-		77B84AA61DB2CCAC0040D345 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				77B84AA71DB2CCAC0040D345 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		77B84ABF1DB2CCAC0040D345 /* HCPermissionsTests */ = {
@@ -140,6 +151,41 @@
 			path = HCPermissionsUITests;
 			sourceTree = "<group>";
 		};
+		77B84AD91DB2CD050040D345 /* HCPermissionsExample */ = {
+			isa = PBXGroup;
+			children = (
+				77B84ADA1DB2CD050040D345 /* AppDelegate.h */,
+				77B84ADB1DB2CD050040D345 /* AppDelegate.m */,
+				77B84ADC1DB2CD050040D345 /* Assets.xcassets */,
+				77B84ADD1DB2CD050040D345 /* LaunchScreen.storyboard */,
+				77B84ADF1DB2CD050040D345 /* Main.storyboard */,
+				77B84AE11DB2CD050040D345 /* Info.plist */,
+				77B84AE31DB2CD050040D345 /* ViewController.h */,
+				77B84AE41DB2CD050040D345 /* ViewController.m */,
+				77B84AEC1DB2CD570040D345 /* Supporting Files */,
+			);
+			path = HCPermissionsExample;
+			sourceTree = "<group>";
+		};
+		77B84AEC1DB2CD570040D345 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77B84AE21DB2CD050040D345 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9AC8CD0C69D093EFA39D928 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61084995B1B8F196BE38C6E1 /* Pods-HCPermissions.debug.xcconfig */,
+				40FEC3182E4A6307D7404FF4 /* Pods-HCPermissions.release.xcconfig */,
+				291D665AB97E5B27B50D6D74 /* Pods-HCPermissionsTests.debug.xcconfig */,
+				BE08D702A7983BCEE3C9C9E0 /* Pods-HCPermissionsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77B84AD01DB2CCAC0040D345 /* Build configuration list for PBXNativeTarget "HCPermissions" */;
 			buildPhases = (
+				CEEA9CD65EAEC46B10CD0E90 /* [CP] Check Pods Manifest.lock */,
 				77B84A9F1DB2CCAC0040D345 /* Sources */,
 				77B84AA01DB2CCAC0040D345 /* Frameworks */,
 				77B84AA11DB2CCAC0040D345 /* Resources */,
+				807A746D812950F1D9842236 /* [CP] Embed Pods Frameworks */,
+				777664546FEF1F60BDF99DDF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77B84AD31DB2CCAC0040D345 /* Build configuration list for PBXNativeTarget "HCPermissionsTests" */;
 			buildPhases = (
+				54B47630367C3814AD0D5E81 /* [CP] Check Pods Manifest.lock */,
 				77B84AB81DB2CCAC0040D345 /* Sources */,
 				77B84AB91DB2CCAC0040D345 /* Frameworks */,
 				77B84ABA1DB2CCAC0040D345 /* Resources */,
+				CB1B91A33F3950F0F7FF7478 /* [CP] Embed Pods Frameworks */,
+				7F219D627E101BE93B1868AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,9 +301,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77B84AB61DB2CCAC0040D345 /* LaunchScreen.storyboard in Resources */,
-				77B84AB31DB2CCAC0040D345 /* Assets.xcassets in Resources */,
-				77B84AB11DB2CCAC0040D345 /* Main.storyboard in Resources */,
+				77B84AE91DB2CD050040D345 /* Info.plist in Resources */,
+				77B84AE81DB2CD050040D345 /* Main.storyboard in Resources */,
+				77B84AE61DB2CD050040D345 /* Assets.xcassets in Resources */,
+				77B84AE71DB2CD050040D345 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +324,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54B47630367C3814AD0D5E81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		777664546FEF1F60BDF99DDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HCPermissions/Pods-HCPermissions-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F219D627E101BE93B1868AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HCPermissionsTests/Pods-HCPermissionsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		807A746D812950F1D9842236 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HCPermissions/Pods-HCPermissions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB1B91A33F3950F0F7FF7478 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HCPermissionsTests/Pods-HCPermissionsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEEA9CD65EAEC46B10CD0E90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		77B84A9F1DB2CCAC0040D345 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77B84AAE1DB2CCAC0040D345 /* ViewController.m in Sources */,
-				77B84AAB1DB2CCAC0040D345 /* AppDelegate.m in Sources */,
-				77B84AA81DB2CCAC0040D345 /* main.m in Sources */,
+				77B84AEB1DB2CD050040D345 /* ViewController.m in Sources */,
+				77B84AEF1DB2CD9E0040D345 /* HCPermissions.m in Sources */,
+				77B84AEA1DB2CD050040D345 /* main.m in Sources */,
+				77B84AE51DB2CD050040D345 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,20 +461,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		77B84AAF1DB2CCAC0040D345 /* Main.storyboard */ = {
+		77B84ADD1DB2CD050040D345 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				77B84AB01DB2CCAC0040D345 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		77B84AB41DB2CCAC0040D345 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				77B84AB51DB2CCAC0040D345 /* Base */,
+				77B84ADE1DB2CD050040D345 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		77B84ADF1DB2CD050040D345 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77B84AE01DB2CD050040D345 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -425,10 +572,11 @@
 		};
 		77B84AD11DB2CCAC0040D345 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61084995B1B8F196BE38C6E1 /* Pods-HCPermissions.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UVS6Y7N82D;
-				INFOPLIST_FILE = HCPermissions/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HCPermissionsExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hcrub.HCPermissions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,10 +585,11 @@
 		};
 		77B84AD21DB2CCAC0040D345 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40FEC3182E4A6307D7404FF4 /* Pods-HCPermissions.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UVS6Y7N82D;
-				INFOPLIST_FILE = HCPermissions/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HCPermissionsExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hcrub.HCPermissions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -449,6 +598,7 @@
 		};
 		77B84AD41DB2CCAC0040D345 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291D665AB97E5B27B50D6D74 /* Pods-HCPermissionsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = UVS6Y7N82D;
@@ -462,6 +612,7 @@
 		};
 		77B84AD51DB2CCAC0040D345 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE08D702A7983BCEE3C9C9E0 /* Pods-HCPermissionsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = UVS6Y7N82D;
@@ -516,6 +667,7 @@
 				77B84AD21DB2CCAC0040D345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77B84AD31DB2CCAC0040D345 /* Build configuration list for PBXNativeTarget "HCPermissionsTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +676,7 @@
 				77B84AD51DB2CCAC0040D345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77B84AD61DB2CCAC0040D345 /* Build configuration list for PBXNativeTarget "HCPermissionsUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +685,7 @@
 				77B84AD81DB2CCAC0040D345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
