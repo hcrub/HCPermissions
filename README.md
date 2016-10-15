@@ -1,5 +1,5 @@
 # HCPermissions
-Functional permissions access management. Simple reactive framework for gracefully handling permissions in your application flow. 
+Functional permissions access management. Simple, stateless, reactive framework for gracefully handling permissions in your application flow. 
 
 ### Example
 
