@@ -6,6 +6,7 @@ Functional permissions access management. Simple reactive framework for graceful
 ```objc
 
 // Bind your properties to the access state.
+@weakify(self)
 [[RACObserve([HCPermissions sharedPermissions], hasCameraAccess)
       deliverOnMainThread]
  subscribeNext:^(NSNumber *hasCameraAccess) {
